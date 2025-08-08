@@ -41,6 +41,7 @@ export const fileIconMap = {
 
 export const LanguageList = [
   'English',
+  'French',
   'Chinese',
   'Traditional Chinese',
   'Indonesia',
@@ -53,6 +54,7 @@ export const LanguageList = [
 
 export const LanguageMap = {
   English: 'English',
+  French: 'Français',
   Chinese: '简体中文',
   'Traditional Chinese': '繁體中文',
   Indonesia: 'Indonesia',
@@ -65,6 +67,7 @@ export const LanguageMap = {
 
 export enum LanguageAbbreviation {
   En = 'en',
+  Fr = 'fr',
   Zh = 'zh',
   ZhTraditional = 'zh-TRADITIONAL',
   Id = 'id',
@@ -77,6 +80,7 @@ export enum LanguageAbbreviation {
 
 export const LanguageAbbreviationMap = {
   [LanguageAbbreviation.En]: 'English',
+  [LanguageAbbreviation.Fr]: 'Français',
   [LanguageAbbreviation.Zh]: '简体中文',
   [LanguageAbbreviation.ZhTraditional]: '繁體中文',
   [LanguageAbbreviation.Id]: 'Indonesia',
@@ -89,6 +93,7 @@ export const LanguageAbbreviationMap = {
 
 export const LanguageTranslationMap = {
   English: 'en',
+  French: 'fr',
   Chinese: 'zh',
   'Traditional Chinese': 'zh-TRADITIONAL',
   Indonesia: 'id',

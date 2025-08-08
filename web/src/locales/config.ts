@@ -6,6 +6,7 @@ import { LanguageAbbreviation } from '@/constants/common';
 import translation_de from './de';
 import translation_en from './en';
 import translation_es from './es';
+import translation_fr from './fr';
 import translation_id from './id';
 import translation_ja from './ja';
 import translation_pt_br from './pt-br';
@@ -16,6 +17,7 @@ import translation_zh_traditional from './zh-traditional';
 
 const resources = {
   [LanguageAbbreviation.En]: translation_en,
+  [LanguageAbbreviation.Fr]: translation_fr,
   [LanguageAbbreviation.Zh]: translation_zh,
   [LanguageAbbreviation.ZhTraditional]: translation_zh_traditional,
   [LanguageAbbreviation.Id]: translation_id,
@@ -26,6 +28,7 @@ const resources = {
   [LanguageAbbreviation.De]: translation_de,
 };
 const enFlattened = flattenObject(translation_en);
+const frFlattened = flattenObject(translation_fr);
 const viFlattened = flattenObject(translation_vi);
 const esFlattened = flattenObject(translation_es);
 const zhFlattened = flattenObject(translation_zh);
@@ -36,6 +39,7 @@ const deFlattened = flattenObject(translation_de);
 export const translationTable = createTranslationTable(
   [
     enFlattened,
+    frFlattened,
     viFlattened,
     esFlattened,
     zhFlattened,
@@ -46,6 +50,7 @@ export const translationTable = createTranslationTable(
   ],
   [
     'English',
+    'French',
     'Vietnamese',
     'Spanish',
     'zh',
